@@ -1,0 +1,197 @@
+/* Based on Arabic (RTL) version of WordPress Classic theme, converted by Serdal (Serdal.com) */
+
+#menu ul ul, #wp-calendar caption, #wp-calendar #prev a { text-align: right; }
+#wp-calendar #next a, .feedback { text-align: left; }
+
+blockquote {
+	border-left: 0;
+	border-right: 5px solid #ccc;
+	margin-left: auto;
+	margin-right: 1.5em;
+	padding-left: 0;
+	padding-right: 5px;
+}
+
+/* body { font-family: 'Geeza Pro', Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; }
+
+h2 { font: 95% 'Al Bayan', 'Traditional Arabic', "Times New Roman", Times, serif; }
+
+p, li, .feedback {
+	font: 90%/175% 'Geeza Pro', Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	text-align: justify;
+}
+ */
+acronym, abbr, span.caps, h2, p, li, #header, #menu ul li, #menu ul ul li, #wp-calendar td, .feedback, .meta, .meta a { letter-spacing: normal; }
+
+#commentlist li ul {
+	border-left: 0;
+	border-right: 1px solid #ddd;
+}
+
+#commentlist li .avatar {
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+#commentlist li .avatar {
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+#content {
+	/* margin: 30px 3em 0 13em;
+	padding-right: 0;
+	padding-left: 60px; */
+}
+
+#header {
+	border-left: solid 1px #9a9;
+	border-right: solid 1px #565;
+	font: normal normal 230% 'Al Bayan', 'Traditional Arabic', 'Times New Roman', Times, serif;
+	padding: 15px 60px 15px 10px;
+}
+
+#menu {
+	border-left: 0;
+	border-right: 1px dotted #ccc;
+	padding: 20px 30px 10px 0;
+	right: auto;
+	left: 2px;
+}
+
+#menu form { margin: 0 13px 0 0; }
+
+#menu ul {
+	padding-left: 0;
+	padding-right: 3px;
+}
+
+#menu ul li { font: normal normal 110% 'Geeza Pro', Tahoma, 'Times New Roman', Times, serif; }
+
+#menu ul ul li {
+	font: normal normal 12px/115% 'Geeza Pro', Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	padding-left: 0;
+	padding-right: 12px;
+}
+
+#menu ul ul ul.children {
+	padding-left: 0;
+	padding-right: 4px;
+}
+
+#wp-calendar #next a {
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+#wp-calendar #prev a {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+#wp-calendar td { font: normal normal 12px 'Geeza Pro', Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; }
+
+.rm_wrap{
+    width:95%;
+}
+.rm_section{
+    border:1px solid #ddd;
+    border-bottom:0;
+    background:#f9f9f9;
+}
+.rm_opts label{
+    font-size:12px;
+    font-weight:700;
+    width:200px;
+    display:block;
+    float:left; 
+}
+.rm_input {
+    padding:30px 10px;
+    border-bottom:1px solid #ddd;
+    border-top:1px solid #fff;
+}
+.rm_opts small{
+    display:block;
+    float:right;
+    width:200px;
+    color:#999;
+}
+.rm_opts input[type="text"], .rm_opts select{
+    width:60%;
+    font-size:12px;
+    padding:4px;
+    color:#333;
+    line-height:1em;
+    background:#f3f3f3;
+}
+.rm_input input:focus, .rm_input textarea:focus{
+        background:#fff;
+}
+.rm_input textarea{
+       width: 60%;
+    height: 110px;
+    font-size:12px;
+    padding:4px;
+    color:#333;
+    line-height:1.5em;
+    background:#f3f3f3;
+}
+.rm_title h3 {
+    cursor:pointer;
+    font-size:1em;
+    text-transform: uppercase;
+    margin:0;
+    font-weight:bold;
+    color:#232323;
+    float:left;
+    width:80%;
+    padding:14px 4px;
+}
+.rm_title{
+    cursor:pointer;
+    border-bottom:1px solid #ddd;
+    background:#eee;
+    padding:0;
+}
+.rm_title h3 .inactive{
+    margin:-8px 10px 0 2px;
+    width:32px;
+    height:32px;    
+    background:url('images/pointer.png') no-repeat 0 0;
+    float:left;
+    -moz-border-radius:6px;
+    border:1px solid #ccc;
+}
+.rm_title h3 img.active{
+    margin:-8px 10px 0 2px;
+    width:32px;
+    height:32px;    
+    background:url('images/pointer.png') no-repeat  0 -32px;
+    float:left;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border:1px solid #ccc;
+}       
+.rm_title h3:hover img{
+    border:1px solid #999;
+}
+.rm_title span.submit{
+    display:block;
+    float:right;
+    margin:0;
+    padding:0;
+    width:15%;
+    padding:14px 0;
+}
+.clearfix{
+    clear:both;
+}
+.rm_table th, .rm_table td{
+    border:1px solid #bbb;
+    padding:10px;
+    text-align:center;
+}
+.rm_table th, .rm_table td.feature{
+    border-color:#888;
+    }
